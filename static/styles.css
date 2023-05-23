@@ -1,0 +1,24 @@
+/* .my-nav,
+
+a {
+  padding: 10px;
+}
+
+.my-todo {
+  padding: 10px;
+  margin: 10px;
+}
+
+.my-form {
+  padding: 10px;
+  margin: 10px;
+} */
+
+/* .my-inputs{
+    width: 10px;
+
+} */ 
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
