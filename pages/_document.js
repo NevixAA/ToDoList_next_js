@@ -1,3 +1,8 @@
+/**
+ * used for reconfigure the default next document, and will be the core of the html file in this aplication
+ * this file is only rendered on the server side
+ * 
+ */
 import Document, { Html, Head, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {

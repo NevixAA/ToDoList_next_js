@@ -1,3 +1,8 @@
+/**
+ * layout component that applies dynamic layout for each page ,
+ * contains the navbar copmonents that's apper in this application
+ */
+
 import Nav from "./Nav";
 
 const Layout = ({ mainTitle, footer, children }) => (

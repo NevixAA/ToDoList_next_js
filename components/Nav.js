@@ -1,3 +1,6 @@
+/**
+ * nav component who will appear in every page of this appliaction
+ */
 import Link from "next/link";
 
 const Nav = () => (
