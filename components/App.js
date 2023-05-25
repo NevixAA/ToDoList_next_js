@@ -17,8 +17,8 @@ const App = () => {
   // }, [todos]);
 
   return (
-    <div className="h-screen flex flex-col items-center bg-blue-200">
-      <h1 className="text-5xl font-bold text-blue-500 ">Todo List</h1>
+    <div className="h-screen flex flex-col items-center bg-blue-200 sm:text-center">
+      <h1 className="text-5xl mt-10 font-bold text-blue-500 ">Todo List</h1>
       <Form setTodos={setTodos} todos={todos} />
       <ToDoList setTodos={setTodos} todos={todos} />
     </div>

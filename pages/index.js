@@ -1,6 +1,5 @@
 import Head from "next/head";
 import App from "../components/App";
-// import { resetServerContext } from "react-beautiful-dnd";
 
 /**
  * Index its the home page of the project,
@@ -10,7 +9,7 @@ import App from "../components/App";
 
 const Index = () => (
   
-  <div className="flex flex-col items-center bg-blue-200">
+  <div className="flex flex-col items-center bg-blue-200 sm:text-center">
     <Head>
       <title>Home page</title>
     </Head>
@@ -18,13 +17,5 @@ const Index = () => (
 
   </div>
 );
-// export const getServerSideProps = async ({ query }) => {
-//   resetServerContext({});
-
-//   return {
-//     props: { data: [] },
-//   };
-// };
-
 
 export default Index;
